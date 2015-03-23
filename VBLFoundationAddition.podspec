@@ -74,7 +74,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/VinceBurn/swift-foundation-addition.git", :commit => "5268e9d07cee4f601d4c01326688f241316c5860" }
+  s.source       = { :git => "https://github.com/VinceBurn/swift-foundation-addition.git", :branch => "master" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
