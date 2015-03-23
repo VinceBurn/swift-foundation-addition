@@ -13,6 +13,7 @@
 		B4AA55E61ABFB41300BC6839 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4AA55E51ABFB41300BC6839 /* Images.xcassets */; };
 		B4AA55E91ABFB41300BC6839 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4AA55E71ABFB41300BC6839 /* LaunchScreen.xib */; };
 		B4AA55F51ABFB41300BC6839 /* Swift_Foundation_AdditionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AA55F41ABFB41300BC6839 /* Swift_Foundation_AdditionTests.swift */; };
+		B4AA56041ABFB8FB00BC6839 /* FoundationAdditionSources in Resources */ = {isa = PBXBuildFile; fileRef = B4AA56031ABFB8FB00BC6839 /* FoundationAdditionSources */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,10 @@
 		B4AA55EE1ABFB41300BC6839 /* Swift-Foundation-AdditionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-Foundation-AdditionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4AA55F31ABFB41300BC6839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4AA55F41ABFB41300BC6839 /* Swift_Foundation_AdditionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Foundation_AdditionTests.swift; sourceTree = "<group>"; };
+		B4AA55FF1ABFB6E400BC6839 /* VBLFoundationAddition.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = VBLFoundationAddition.podspec; sourceTree = "<group>"; };
+		B4AA56001ABFB6F000BC6839 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B4AA56011ABFB6F000BC6839 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B4AA56031ABFB8FB00BC6839 /* FoundationAdditionSources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FoundationAdditionSources; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +64,11 @@
 		B4AA55D01ABFB41300BC6839 = {
 			isa = PBXGroup;
 			children = (
+				B4AA56031ABFB8FB00BC6839 /* FoundationAdditionSources */,
+				B4AA55FE1ABFB6D200BC6839 /* Pod Metadata */,
+				B4AA55DA1ABFB41300BC6839 /* Products */,
 				B4AA55DB1ABFB41300BC6839 /* Swift-Foundation-Addition */,
 				B4AA55F11ABFB41300BC6839 /* Swift-Foundation-AdditionTests */,
-				B4AA55DA1ABFB41300BC6839 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +117,16 @@
 				B4AA55F31ABFB41300BC6839 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4AA55FE1ABFB6D200BC6839 /* Pod Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				B4AA56001ABFB6F000BC6839 /* LICENSE */,
+				B4AA56011ABFB6F000BC6839 /* README.md */,
+				B4AA55FF1ABFB6E400BC6839 /* VBLFoundationAddition.podspec */,
+			);
+			name = "Pod Metadata";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4AA56041ABFB8FB00BC6839 /* FoundationAdditionSources in Resources */,
 				B4AA55E41ABFB41300BC6839 /* Main.storyboard in Resources */,
 				B4AA55E91ABFB41300BC6839 /* LaunchScreen.xib in Resources */,
 				B4AA55E61ABFB41300BC6839 /* Images.xcassets in Resources */,
@@ -402,6 +420,7 @@
 				B4AA55FA1ABFB41300BC6839 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4AA55FB1ABFB41300BC6839 /* Build configuration list for PBXNativeTarget "Swift-Foundation-AdditionTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +429,7 @@
 				B4AA55FD1ABFB41300BC6839 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
