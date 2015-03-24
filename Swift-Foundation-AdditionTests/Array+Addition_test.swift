@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Vincent Bernier. All rights reserved.
 //
 
-import UIKit
+import Foundation
 import XCTest
 
 class Array_Addition_test: XCTestCase {
