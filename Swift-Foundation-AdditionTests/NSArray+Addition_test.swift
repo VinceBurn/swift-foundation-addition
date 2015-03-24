@@ -23,8 +23,7 @@ class NSArray_Addition_test: XCTestCase {
     
     //  MARK: - anyObject
     func test_anyObject_returnNil_WhenEmptyNSArray() {
-        let emptyAr = NSArray()
-        XCTAssertNil(emptyAr.anyObject(), "")
+        XCTAssertNil(NSArray().anyObject(), "")
     }
     
     func test_anyObject_returnTheOneObjectInNSArray() {
