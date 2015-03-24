@@ -20,8 +20,9 @@ Pod::Spec.new do |s|
   s.summary      = "Addition to Foundation class in Swift for iOS project"
 
   s.description  = <<-DESC
-                    Addition to Cocoa Foundation classes in Swift.
-                    The main goal is to place usefull and resusable addition in a centralized pod.
+                    Addition to Swift Foundation classes.
+                    The main goal is to add usefull and resusable addition in a centralized pod.
+                    This pod is made to work with iOS, but no UIKit class should be added to this pod.
                    DESC
 
   s.homepage     = "https://github.com/VinceBurn/swift-foundation-addition"
@@ -49,10 +50,10 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "Vincent Bernier" => "" }
+  s.author             = { "Vincent Bernier" => "iOS developer at Yellow Pages Canada" }
   # Or just: s.author    = "Vincent Bernier"
   # s.authors            = { "Vincent Bernier" => "" }
-  # s.social_media_url   = "http://twitter.com/Vincent Bernier"
+  s.social_media_url   = "https://twitter.com/2000Bernier"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -74,7 +75,8 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/VinceBurn/swift-foundation-addition.git", :branch => "master" }
+  #  Sloppy for now, there is no official release yet
+  s.source       = { :git => "https://github.com/VinceBurn/swift-foundation-addition.git", :branch => "develop" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
