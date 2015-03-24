@@ -30,17 +30,17 @@ class NSArray_Addition_test: XCTestCase {
         
         let controlObj = "objet"
         let nsArray = NSArray(object: controlObj)
-        let result = (nsArray.anyObject() ?? "") as String
+        let result = (nsArray.anyObject() ?? "") as! String
         XCTAssertEqual(result, controlObj, "Array with 1 elements always retrun that element")
     }
     
     func test_anyObject_returnEventuallyDifferentObject_when2ItemsInNSArray() {
         
         let nsArray = NSArray(objects: "1", "2")
-        var firstAnyObject = nsArray.anyObject() as String
+        var firstAnyObject = nsArray.anyObject() as? String
         var result = false
         for index in 1...100 {
-            let x = nsArray.anyObject() as String
+            let x = nsArray.anyObject() as? String
             result = firstAnyObject != x
             if result {
                 break
