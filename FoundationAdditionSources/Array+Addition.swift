@@ -8,6 +8,11 @@
 
 import Foundation
 
+/** Walk around while Generic collection don't support public extension  */
+func anyObjectInArray<T>(anArray:Array<T>) -> T? {
+    return anArray.anyObject()
+}
+
 internal extension Array {
     
     internal func anyObject() -> T? {

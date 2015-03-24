@@ -24,7 +24,7 @@ class Array_Addition_test: XCTestCase {
     //  MARK: - anyObject
     // Goal is to be able to exchange implementation from first class function to stuct method
     func anyObjectWrapperMethed<T>(anArray:Array<T>) -> T? {
-        return anArray.anyObject()
+        return anyObjectInArray(anArray)
     }
     
     func test_anyObject_returnNil_whenEmpty() {
