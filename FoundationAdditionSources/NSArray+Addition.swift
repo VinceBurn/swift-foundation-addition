@@ -9,7 +9,7 @@
 import Foundation
 
 public extension NSArray {
-    func anyObject() -> AnyObject? {
+    func randomObject() -> AnyObject? {
         var result:AnyObject? = nil;
         if (count > 0) {
             let random:Int = Int(arc4random_uniform(UInt32(count)))
