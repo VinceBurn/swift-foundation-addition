@@ -13,7 +13,7 @@ import Swift
 @discussion Use this class to implement mechanism like target/action or observers, where retain cycle are likely to occure. */
 final public class WeakWrapper<T:AnyObject> {
     
-    weak private(set) var item : T?
+    weak public private(set) var item : T?
     /** Designited init */
     public init(item: T) {
         self.item = item
