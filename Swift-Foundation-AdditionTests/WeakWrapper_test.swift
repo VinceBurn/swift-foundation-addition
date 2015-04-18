@@ -13,18 +13,18 @@ class WeakWrapper_test: XCTestCase {
     
     func test_initWithString_saveItsStr() {
         let str = NSString(string: "STR")
-        let x = WeakWrapper(string: str)
-        XCTAssertTrue(str == x.string, "")
+        let x = WeakWrapper<NSString>(item: str)
+        XCTAssertTrue(str == x.item, "")
     }
     
     func test_string_isWeak() {
-        var wrap : WeakWrapper = WeakWrapper(string: NSString(string: ""))
+        var wrap : WeakWrapper = WeakWrapper<NSString>(item: NSString(string: ""))
         if (true) {
             let str = NSString(string: "STR")
-            wrap = WeakWrapper(string: str)
+            wrap = WeakWrapper<NSString>(item: str)
         }
         
-        XCTAssertTrue(wrap.string == nil, "")
+        XCTAssertTrue(wrap.item == nil, "")
     }
 
 }

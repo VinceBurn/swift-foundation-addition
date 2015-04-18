@@ -9,10 +9,10 @@
 import Foundation
 import Swift
 
-public class WeakWrapper {
+public class WeakWrapper<T:AnyObject> {
     
-    weak var string : NSString?
-    public init(string: NSString) {
-        self.string = string
+    weak var item : T?
+    public init(item: T) {
+        self.item = item
     }
 }
