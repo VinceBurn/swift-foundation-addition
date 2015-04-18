@@ -11,7 +11,7 @@ import Swift
 
 public class WeakWrapper<T:AnyObject> {
     
-    weak var item : T?
+    weak private(set) var item : T?
     public init(item: T) {
         self.item = item
     }
