@@ -10,6 +10,9 @@
 		B410DB9C1AC0F98C0009E404 /* Array+Addition_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B410DB9B1AC0F98C0009E404 /* Array+Addition_test.swift */; };
 		B410DB9E1AC0F9D90009E404 /* Array+Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B410DB9D1AC0F9D90009E404 /* Array+Addition.swift */; };
 		B410DB9F1AC0FC2A0009E404 /* Array+Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B410DB9D1AC0F9D90009E404 /* Array+Addition.swift */; };
+		B4A618261AE2D378003447F2 /* WeakWrapper_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A618251AE2D378003447F2 /* WeakWrapper_test.swift */; };
+		B4A618281AE2D415003447F2 /* WeakWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A618271AE2D415003447F2 /* WeakWrapper.swift */; };
+		B4A618291AE2D465003447F2 /* WeakWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A618271AE2D415003447F2 /* WeakWrapper.swift */; };
 		B4AA55DF1ABFB41300BC6839 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AA55DE1ABFB41300BC6839 /* AppDelegate.swift */; };
 		B4AA55E11ABFB41300BC6839 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AA55E01ABFB41300BC6839 /* ViewController.swift */; };
 		B4AA55E41ABFB41300BC6839 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4AA55E21ABFB41300BC6839 /* Main.storyboard */; };
@@ -34,6 +37,8 @@
 /* Begin PBXFileReference section */
 		B410DB9B1AC0F98C0009E404 /* Array+Addition_test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Array+Addition_test.swift"; path = "Swift-Foundation-AdditionTests/Array+Addition_test.swift"; sourceTree = "<group>"; };
 		B410DB9D1AC0F9D90009E404 /* Array+Addition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Array+Addition.swift"; path = "FoundationAdditionSources/Array+Addition.swift"; sourceTree = "<group>"; };
+		B4A618251AE2D378003447F2 /* WeakWrapper_test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeakWrapper_test.swift; path = "Swift-Foundation-AdditionTests/WeakWrapper_test.swift"; sourceTree = "<group>"; };
+		B4A618271AE2D415003447F2 /* WeakWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeakWrapper.swift; path = FoundationAdditionSources/WeakWrapper.swift; sourceTree = "<group>"; };
 		B4AA55D91ABFB41300BC6839 /* Swift-Foundation-Addition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Foundation-Addition.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4AA55DD1ABFB41300BC6839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4AA55DE1ABFB41300BC6839 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -144,6 +149,8 @@
 				B410DB9D1AC0F9D90009E404 /* Array+Addition.swift */,
 				B4AA560A1ABFBFF900BC6839 /* NSArray+Addition_test.swift */,
 				B4AA56081ABFBDFF00BC6839 /* NSArray+Addition.swift */,
+				B4A618251AE2D378003447F2 /* WeakWrapper_test.swift */,
+				B4A618271AE2D415003447F2 /* WeakWrapper.swift */,
 			);
 			name = VBLFoundationAdditionSources;
 			sourceTree = "<group>";
@@ -249,6 +256,7 @@
 			files = (
 				B4AA55E11ABFB41300BC6839 /* ViewController.swift in Sources */,
 				B410DB9E1AC0F9D90009E404 /* Array+Addition.swift in Sources */,
+				B4A618281AE2D415003447F2 /* WeakWrapper.swift in Sources */,
 				B4AA56091ABFBDFF00BC6839 /* NSArray+Addition.swift in Sources */,
 				B4AA55DF1ABFB41300BC6839 /* AppDelegate.swift in Sources */,
 			);
@@ -258,11 +266,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4A618291AE2D465003447F2 /* WeakWrapper.swift in Sources */,
 				B4AA560B1ABFBFF900BC6839 /* NSArray+Addition_test.swift in Sources */,
 				B410DB9F1AC0FC2A0009E404 /* Array+Addition.swift in Sources */,
 				B410DB9C1AC0F98C0009E404 /* Array+Addition_test.swift in Sources */,
 				B4AA560C1ABFC17A00BC6839 /* NSArray+Addition.swift in Sources */,
 				B4AA55F51ABFB41300BC6839 /* Swift_Foundation_AdditionTests.swift in Sources */,
+				B4A618261AE2D378003447F2 /* WeakWrapper_test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
