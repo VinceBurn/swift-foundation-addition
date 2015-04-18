@@ -14,7 +14,7 @@ class WeakWrapper_test: XCTestCase {
     func test_initWithString_saveItsStr() {
         let str = NSString(string: "STR")
         let x = WeakWrapper<NSString>(item: str)
-        XCTAssertTrue(str == x.item, "")
+        XCTAssertTrue(str == x.item, "Item is readable back")
     }
     
     func test_string_isWeak() {
@@ -23,8 +23,6 @@ class WeakWrapper_test: XCTestCase {
             let str = NSString(string: "STR")
             wrap = WeakWrapper<NSString>(item: str)
         }
-        
-        XCTAssertTrue(wrap.item == nil, "")
+        XCTAssertTrue(wrap.item == nil, "The item is weak, so it is nil when the object get out of scope")
     }
-
 }
