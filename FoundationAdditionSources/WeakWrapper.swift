@@ -7,7 +7,12 @@
 //
 
 import Foundation
+import Swift
 
 public class WeakWrapper {
-    public init() {}
+    
+    weak var string : NSString?
+    public init(string: NSString) {
+        self.string = string
+    }
 }
