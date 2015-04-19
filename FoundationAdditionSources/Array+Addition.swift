@@ -19,7 +19,7 @@ public func randomObjectInArray<T>(anArray:Array<T>) -> T? {
  @discussion This method is intended to be use on array in which members don't conforms to the Equitable protocol.
  @note This method is a supplement for the global function 'find' that only works with Equitable items.
  @note Walk around while Generic collection don't support public extension */
-public func findIndexOfObjecInArray<T>(ar: Array<T>, #test: (T) -> Bool) -> Int? {
+public func findIndexOfObjectInArray<T>(ar: Array<T>, #test: (T) -> Bool) -> Int? {
     return ar.findIndexOfObjectPassingTest(test)
 }
 

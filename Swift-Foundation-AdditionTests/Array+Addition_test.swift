@@ -56,22 +56,22 @@ class Array_Addition_test: XCTestCase {
     //MARK:- Find
     func test_find_emptyArray_return_nil() {
         let ar = Array<Int>()
-        XCTAssertTrue(findIndexOfObjecInArray(ar) {$0 == 3} == nil, "Empty array will always find nothing")
+        XCTAssertTrue(findIndexOfObjectInArray(ar) {$0 == 3} == nil, "Empty array will always find nothing")
     }
     
     func test_find_firstItem_in2ItemArray() {
         let ar = [3, 2]
-        XCTAssertTrue(findIndexOfObjecInArray(ar) {$0 == 3} == 0, "First index is return when test is true for first")
+        XCTAssertTrue(findIndexOfObjectInArray(ar) {$0 == 3} == 0, "First index is return when test is true for first")
     }
     
     func test_find_lastItem_in2ItemArray() {
         let ar = [2, 3]
-        XCTAssertTrue(findIndexOfObjecInArray(ar) {$0 == 3} == 1, "Last index is return when test is true for last")
+        XCTAssertTrue(findIndexOfObjectInArray(ar) {$0 == 3} == 1, "Last index is return when test is true for last")
     }
     
     func test_find_firstOccuranceOfItemInArray() {
         let ar = [2, 3, 3, 3, 3, 3, 3]
-        XCTAssertTrue(findIndexOfObjecInArray(ar) {$0 == 3} == 1, "Index of First occurent of a passing test is return")
+        XCTAssertTrue(findIndexOfObjectInArray(ar) {$0 == 3} == 1, "Index of First occurent of a passing test is return")
     }
 
 }
